@@ -1,0 +1,134 @@
+@import 'palette';
+
+@media screen and (max-width: 768px){
+    .header{
+        .container{
+            padding: 14px 26px;
+            .logo-container{
+                .logo-description{
+                    display: none;
+                }
+            }
+            .contacts-container{
+                .phone{
+                    font-size: 24px;
+                }
+                .callBack{
+                    padding: 8px;
+                }
+            }
+        }
+    }
+    .banner-container{
+        .slider-nav-container{
+            margin: 0 40px;
+            bottom: 60px;
+        }
+        .nav-container{
+            .navigation{
+                padding: 10px 14px;
+                flex-wrap: wrap;
+            }
+            .nav-item{
+                margin: 5px 0;
+            }
+        }
+        .slider-container{
+            .item{
+                padding: 0 40px;
+                .item-content{
+                    // padding: 70px 0 100px;
+                    .name{
+                        font-size: 60px;
+                    }
+                    .destination{
+                        .space{
+                            font-size: 24px;
+                        }
+                        .area{
+                            font-size: 12px;
+                            .number{
+                                font-size: 20px;
+                            }
+                        }
+                    }
+                    .slogan{
+                        font-size: 16px;
+                    }
+                    .ideas{
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 415px){
+    .header{
+        .container{
+            padding: 14px 20px;
+            .logo{
+                font-size: 24px;
+                margin-right: 0;
+            }
+            .logo-container{
+                .logo-description{
+                    display: none;
+                }
+            }
+            .contacts-container{
+                align-items: center;
+                flex-direction: column;
+                .phone{
+                    font-size: 16px;
+                    margin-bottom: 4px;
+                }
+                .callBack{
+                    padding: 6px;
+                    margin-left: 0;
+                }
+            }
+        }
+    }
+    .banner-container{
+        .nav-container{
+            .navigation{
+               .divider{
+                   display: none;
+               }
+            }
+        }
+        .slider-container{
+            .item{
+                padding: 0 40px;
+                .item-content{
+                    // padding: 100px 0;
+                    // height: ;
+                    .name{
+                        font-size: 40px;
+                    }
+                    .destination{
+                        .space{
+                            font-size: 16px;
+                            padding: 5px 5px 0;
+                        }
+                        .area{
+                            font-size: 10px;
+                            .number{
+                                font-size: 16px;
+                            }
+                        }
+                    }
+                    .slogan{
+                        font-size: 16px;
+                        margin-left: 0;
+                    }
+                    .ideas{
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+}

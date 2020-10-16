@@ -1,0 +1,67 @@
+@media screen and (max-width: 768px) {
+  .header .container {
+    padding: 14px 26px; }
+  .header .container .logo-container .logo-description {
+    display: none; }
+  .header .container .contacts-container .phone {
+    font-size: 24px; }
+  .header .container .contacts-container .callBack {
+    padding: 8px; }
+  .banner-container .slider-nav-container {
+    margin: 0 40px;
+    bottom: 60px; }
+  .banner-container .nav-container .navigation {
+    padding: 10px 14px;
+    flex-wrap: wrap; }
+  .banner-container .nav-container .nav-item {
+    margin: 5px 0; }
+  .banner-container .slider-container .item {
+    padding: 0 40px; }
+  .banner-container .slider-container .item .item-content .name {
+    font-size: 60px; }
+  .banner-container .slider-container .item .item-content .destination .space {
+    font-size: 24px; }
+  .banner-container .slider-container .item .item-content .destination .area {
+    font-size: 12px; }
+  .banner-container .slider-container .item .item-content .destination .area .number {
+    font-size: 20px; }
+  .banner-container .slider-container .item .item-content .slogan {
+    font-size: 16px; }
+  .banner-container .slider-container .item .item-content .ideas {
+    font-size: 18px; } }
+
+@media screen and (max-width: 415px) {
+  .header .container {
+    padding: 14px 20px; }
+  .header .container .logo {
+    font-size: 24px;
+    margin-right: 0; }
+  .header .container .logo-container .logo-description {
+    display: none; }
+  .header .container .contacts-container {
+    align-items: center;
+    flex-direction: column; }
+  .header .container .contacts-container .phone {
+    font-size: 16px;
+    margin-bottom: 4px; }
+  .header .container .contacts-container .callBack {
+    padding: 6px;
+    margin-left: 0; }
+  .banner-container .nav-container .navigation .divider {
+    display: none; }
+  .banner-container .slider-container .item {
+    padding: 0 40px; }
+  .banner-container .slider-container .item .item-content .name {
+    font-size: 40px; }
+  .banner-container .slider-container .item .item-content .destination .space {
+    font-size: 16px;
+    padding: 5px 5px 0; }
+  .banner-container .slider-container .item .item-content .destination .area {
+    font-size: 10px; }
+  .banner-container .slider-container .item .item-content .destination .area .number {
+    font-size: 16px; }
+  .banner-container .slider-container .item .item-content .slogan {
+    font-size: 16px;
+    margin-left: 0; }
+  .banner-container .slider-container .item .item-content .ideas {
+    font-size: 18px; } }
