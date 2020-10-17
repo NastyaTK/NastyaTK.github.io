@@ -1,4 +1,4 @@
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 769px) {
   .header .container {
     padding: 14px 26px; }
   .header .container .logo-container .logo-description {
@@ -8,7 +8,8 @@
   .header .container .contacts-container .callBack {
     padding: 8px; }
   .banner-container .slider-nav-container {
-    margin: 0 40px;
+    padding-left: 40px;
+    box-sizing: border-box;
     bottom: 60px; }
   .banner-container .nav-container .navigation {
     padding: 10px 14px;
@@ -28,9 +29,11 @@
   .banner-container .slider-container .item .item-content .slogan {
     font-size: 16px; }
   .banner-container .slider-container .item .item-content .ideas {
-    font-size: 18px; } }
+    font-size: 18px; }
+  .adv-bg-img .adv-bg .advantages-container {
+    grid-template-columns: repeat(2, 1fr); } }
 
-@media screen and (max-width: 415px) {
+@media screen and (max-width: 550px) {
   .header .container {
     padding: 14px 20px; }
   .header .container .logo {
@@ -64,4 +67,6 @@
     font-size: 16px;
     margin-left: 0; }
   .banner-container .slider-container .item .item-content .ideas {
-    font-size: 18px; } }
+    font-size: 18px; }
+  .adv-bg-img .adv-bg .advantages-container {
+    grid-template-columns: 1fr; } }

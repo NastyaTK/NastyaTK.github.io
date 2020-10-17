@@ -211,20 +211,40 @@ body .body-container {
   background-image: url(../assets/item-3.jpg); }
 
 .adv-bg-img {
+  background-image: url("../assets/advantage.jpg");
   width: 100%;
-  background-image: url(../assets/advantage.jpg);
   background-size: cover;
   background-position: center;
   position: relative;
-  top: -36px; }
+  bottom: 36px; }
 
-.adv-bg-img .adv-container {
-  width: 100%;
+.adv-bg-img .adv-bg {
   background-color: #ffffffc9; }
 
-.adv-bg-img .adv-container .advantages {
-  max-width: 1200px;
+.adv-bg-img .adv-bg .advantages-container {
   width: 100%;
+  max-width: 1200px;
   margin: 0 auto;
+  box-sizing: border-box;
+  padding: 20px 0;
   display: grid;
   grid-template-columns: repeat(4, 1fr); }
+
+.adv-bg-img .adv-bg .advantages-container .advantage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 20px;
+  box-sizing: border-box;
+  text-align: center; }
+
+.adv-bg-img .adv-bg .advantages-container .advantage .advantage-icon {
+  font-size: 98px; }
+
+.adv-bg-img .adv-bg .advantages-container .advantage .advantage-name {
+  margin-bottom: 0;
+  font-size: 19px;
+  font-weight: 900; }
+
+.adv-bg-img .adv-bg .advantages-container .advantage .advantage-text {
+  font-size: 16px; }

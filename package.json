@@ -5,12 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "scss": "gulp scss:watch"
+    "scss": "gulp scss:watch",
+    "start": "lite-server"
   },
   "author": "Anastasiya Tkachenko",
   "license": "ISC",
   "devDependencies": {
     "gulp": "^4.0.2",
-    "gulp-sass": "^4.1.0"
+    "gulp-sass": "^4.1.0",
+    "lite-server": "^2.5.4"
   }
 }

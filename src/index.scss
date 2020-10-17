@@ -212,21 +212,41 @@ body{
 }
 
 .adv-bg-img{
+    background-image: url('../assets/advantage.jpg');
     width: 100%;
-    background-image: url(../assets/advantage.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
-    top: -36px;
-    .adv-container{
-        width: 100%;
+    bottom: 36px;
+    .adv-bg{
         background-color: $whiteOpacity;
-        .advantages{
-            max-width: 1200px;
+        .advantages-container{
             width: 100%;
+            max-width: 1200px;
             margin: 0 auto;
+            box-sizing: border-box;
+            padding: 20px 0;
             display: grid;
             grid-template-columns: repeat(4, 1fr);
+            .advantage{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin: 0 20px;
+                box-sizing: border-box;
+                text-align: center;
+                .advantage-icon{
+                    font-size: 98px;
+                }
+                .advantage-name{
+                    margin-bottom: 0;
+                    font-size: 19px;
+                    font-weight: 900;
+                }
+                .advantage-text{
+                    font-size: 16px;
+                }
+            }
         }
     }
 }
