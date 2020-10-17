@@ -150,3 +150,37 @@
         }
     }
 }
+
+@media screen and (max-width: 380px){
+    .banner-container{
+        .slider-container{
+            .item{
+                padding: 0 25px;
+                .item-content{
+                    .name{
+                        font-size: 38px;
+                    }
+                    .destination{
+                        .space{
+                            font-size: 14px;
+                            padding: 5px 5px 0;
+                        }
+                        .area{
+                            font-size: 10px;
+                            .number{
+                                font-size: 16px;
+                            }
+                        }
+                    }
+                    .slogan{
+                        font-size: 14px;
+                        margin-left: 0;
+                    }
+                    .ideas{
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+}

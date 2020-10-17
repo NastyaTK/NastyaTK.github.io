@@ -70,3 +70,21 @@
     font-size: 18px; }
   .adv-bg-img .adv-bg .advantages-container {
     grid-template-columns: 1fr; } }
+
+@media screen and (max-width: 380px) {
+  .banner-container .slider-container .item {
+    padding: 0 25px; }
+  .banner-container .slider-container .item .item-content .name {
+    font-size: 38px; }
+  .banner-container .slider-container .item .item-content .destination .space {
+    font-size: 14px;
+    padding: 5px 5px 0; }
+  .banner-container .slider-container .item .item-content .destination .area {
+    font-size: 10px; }
+  .banner-container .slider-container .item .item-content .destination .area .number {
+    font-size: 16px; }
+  .banner-container .slider-container .item .item-content .slogan {
+    font-size: 14px;
+    margin-left: 0; }
+  .banner-container .slider-container .item .item-content .ideas {
+    font-size: 16px; } }
